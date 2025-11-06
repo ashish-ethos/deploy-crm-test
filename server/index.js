@@ -30,7 +30,14 @@ const CONNECTION_URL = process.env.ATLAS_URL
 // const CONNECTION_URL = process.env.COMPASS_URL
 
 const PORT = process.env.PORT || 4000
-app.use(cors())
+app.use(cors({
+  origin: [
+    'http://localhost:5173',               
+    'https://demo-epr-crm.netlify.app/'     
+  ],
+  credentials: true
+}));
+
 app.use(express.json())
 
 // serving static files | images

@@ -1,7 +1,11 @@
+export const baseURL = import.meta.env.VITE_BASE_URL;
+export const rootURL = import.meta.env.VITE_ROOT_URL;
+
+
 // client/src/constant.js 
-export const baseURL = "http://localhost:4000/api/v1";
-// export const baseURL = 'https://growmarketing.glitch.me/api/v1'
-export const rootURL = "http://localhost:4000";
+// export const baseURL = "http://localhost:4000/api/v1";
+// // export const baseURL = 'https://growmarketing.glitch.me/api/v1'
+// export const rootURL = "http://localhost:4000";
 // export const rootURL = 'https://growmarketing.glitch.me'
 export const indianCities = [
   "Ahmedabad",

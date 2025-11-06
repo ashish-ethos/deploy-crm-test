@@ -210,7 +210,7 @@ function Leads({ type, showSidebar }) {
     {
       field: "property",
       headerName: "Property",
-      width: 150,
+      width: 250,
       headerClassName: "super-app-theme--header",
       renderCell: (params) => <div className="font-primary font-light capitalize">{params.row?.project?.title || params.row?.property?.title}</div>,
     },
