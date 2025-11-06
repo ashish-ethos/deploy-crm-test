@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # build
-
+/dist
+/dist/
+dist.zip
+build/
 
 # dependencies
 /node_modules
